@@ -127,22 +127,39 @@ const educationInfo = {
       logo: require("./assets/images/evangadiLogo.png"),
       subHeader: "Full Stack Web App Development (React, Node.js, MySQL, Git)",
       duration: "May 2024 - December 2024",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      // descBullets: [
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      // ]
+      desc: "Completed hands-on training in full-stack development, building responsive web applications using modern frameworks and databases.",
+      descBullets: [
+        "Gained expertise in React, Node.js, Express, and MySQL",
+        "Implemented Git workflows and Agile methodologies",
+        "Built and deployed full-stack projects for real-world use cases"
+      ]
     },
     {
       schoolName: "Eastern Gateway Community College",
-      logo: require("./assets/images/stanfordLogo.png"),
+      logo: require("./assets/images/GatorLogo_4Color.png"), // Replace 'stanfordLogo.png' with the correct EGCC logo
       subHeader: "A.S. in Information Technology (GPA: 3.6/4.0)",
       duration: "September 2022 - May 2024",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      desc: "Acquired hands-on experience in IT infrastructure, networking, and system administration.",
+      descBullets: [
+        "Configured and managed high-performance networks using TCP/IP and firewalls",
+        "Developed expertise in troubleshooting hardware and software issues",
+        "Gained knowledge in IT security and database management"
+      ]
+    },
+    {
+      schoolName: "Year Up National Capital Region",
+      logo: require("./assets/images/YearUp.png"),
+      subHeader: "Information Technology Training Program",
+      duration: "September 2017 - July 2018",
+      desc: "Completed a rigorous technical and career development program focused on IT support, software testing, and business communication.",
+      descBullets: [
+        "Earned credits through the American Council on Education (ACE)",
+        "Took college-level coursework in software development and advanced Excel",
+        "Completed a 6-month corporate internship focused on IT systems"
+      ]
     }
   ]
-};
+}
 
 // Your top 3 proficient stacks/tech experience
 
@@ -155,11 +172,11 @@ const techStack = {
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "80%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -167,33 +184,58 @@ const techStack = {
 
 // Work experience section
 
+
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true, // Set to true to show Work Experiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Full Stack Web Apps Intern",
+      company: "Evangadi Networks",
+      companylogo: require("./assets/images/evangadiLogo.png"), // Replace with actual logo file
+      date: "May 2024 – December 2024",
+      desc: "Completed hands-on training in full-stack web application development, focusing on modern frameworks and databases.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Built responsive and dynamic web applications using React.js, Node.js, and MySQL.",
+        "Implemented Agile methodologies and Git workflows for project collaboration.",
+        "Deployed fully functional applications and performed debugging using DevTools and Postman."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Engineer (Full-Time)",
+      company: "Fannie Mae",
+      companylogo: require("./assets/images/fannieMaeLogo.png"), // Replace with actual logo file
+      date: "January 2019 – April 2024",
+      desc: "Developed and maintained software solutions, managed SDLC documentation, and migrated systems to AWS Cloud.",
+      descBullets: [
+        "Tracked project progress using Jira and Confluence, ensuring on-time delivery.",
+        "Performed manual testing using Toad and SVN to expedite defect identification.",
+        "Collaborated with developers to resolve UAT and BOT issues for sprint delivery.",
+        "Migrated systems to AWS Cloud, optimizing deployments and improving performance."
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Intern Software Engineer",
+      company: "Fannie Mae",
+      companylogo: require("./assets/images/fannieMaeLogo.png"), // Replace with actual logo file
+      date: "June 2018 – December 2018",
+      desc: "Supported software engineering tasks, including testing, debugging, and documentation.",
+      descBullets: [
+        "Assisted in managing SDLC workflows and maintaining documentation.",
+        "Tested software components and provided bug fixes to improve functionality.",
+        "Collaborated with senior engineers to deliver incremental updates to existing systems."
+      ]
+    },
+    {
+      role: "Software Development Program Trainee",
+      company: "Year Up National Capital Region",
+      companylogo: require("./assets/images/YearUp.png"), // Replace with actual logo file
+      date: "September 2017 – July 2018",
+      desc: "Completed an intensive training program focused on IT support, software development, and professional skills.",
+      descBullets: [
+        "Earned credits through the American Council on Education (ACE) with a focus on software testing and business communication.",
+        "Took college-level coursework in programming, advanced Excel, and IT systems.",
+        "Participated in a 6-month corporate internship to apply learned skills in real-world scenarios."
+      ]
     }
   ]
 };
