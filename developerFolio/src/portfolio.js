@@ -248,38 +248,7 @@ const openSource = {
   display: true // Set false to hide this section, defaults to true
 };
 
-// Some big projects you have worked on
 
-// const bigProjects = {
-//   title: "Big Projects",
-//   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
-//   projects: [
-//     {
-//       image: require("./assets/images/saayaHealthLogo.webp"),
-//       projectName: "Saayahealth",
-//       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-//       footerLink: [
-//         {
-//           name: "Visit Website",
-//           url: "http://saayahealth.com/"
-//         }
-//         //  you can add extra buttons here.
-//       ]
-//     },
-//     {
-//       image: require("./assets/images/nextuLogo.webp"),
-//       projectName: "Nextu",
-//       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-//       footerLink: [
-//         {
-//           name: "Visit Website",
-//           url: "http://nextu.se/"
-//         }
-//       ]
-//     }
-//   ],
-//   display: true // Set false to hide this section, defaults to true
-// };
 // Big Projects Section
 
 const bigProjects = {
@@ -302,7 +271,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/amazonLogo.png"), // Replace with actual logo
+      image: require("./assets/images/amazonLogo2.png"), // Replace with actual logo
       projectName: "Amazon Clone",
       projectDesc: "An e-commerce clone featuring payments, user authentication, and Firebase integration.",
       footerLink: [
@@ -354,57 +323,63 @@ const bigProjects = {
 // Achievement Section
 // Include certificates, talks etc
 
+// Achievement Section
+
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: "Certifications 🏆",
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Recognitions and Certifications that demonstrate my expertise and skills in Microsoft Office tools and more.",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Microsoft Office Specialist - Excel 2016",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Certified as a Microsoft Office Specialist in Excel 2016, demonstrating expertise in data management and analysis.",
+      image: require("./assets/images/ExcelLogo.png"),
+      imageAlt: "Microsoft Logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Certification ID: 6-2C6-V6SNPD",
+          url: "https://www.microsoft.com/en-us/learning/certification-overview.aspx"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Microsoft Office Specialist - Word 2016",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Certified as a Microsoft Office Specialist in Word 2016, showcasing skills in document creation and editing.",
+      image: require("./assets/images/WordLogo.png"),
+      imageAlt: "./assets/images/MicrosoftLogo.png",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Certification ID: 6-2C6-V99FJ2",
+          url: "https://www.microsoft.com/en-us/learning/certification-overview.aspx"
         }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Microsoft Office Specialist - PowerPoint 2016",
+      subtitle:
+        "Certified as a Microsoft Office Specialist in PowerPoint 2016, specializing in creating impactful presentations.",
+      image: require("./assets/images/PowerPointLogo.png"),
+      imageAlt: "Microsoft Logo",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Certification Details",
+          url: "https://www.microsoft.com/en-us/learning/certification-overview.aspx"
+        }
+      ]
+    },
+    {
+      title: "Microsoft Office Specialist - Outlook 2016",
+      subtitle:
+        "Certified as a Microsoft Office Specialist in Outlook 2016, demonstrating expertise in managing emails and calendars.",
+      image: require("./assets/images/OutlookLogo.png"),
+      imageAlt: "Microsoft Logo",
+      footerLink: [
+        {
+          name: "Certification Details",
+          url: "https://www.microsoft.com/en-us/learning/certification-overview.aspx"
         }
       ]
     }
@@ -415,26 +390,67 @@ const achievementSection = {
 // Blogs Section
 
 const blogSection = {
-  title: "Blogs",
-  subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
-  blogs: [
-    {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
+    title: "Achievements",
+    subtitle: "Recognitions and Accomplishments",
+    achievementsCards: [
+      {
+        title: "Year Up Program Completion",
+        subtitle: "Completed the prestigious Year Up IT Training Program, gaining technical and professional skills.",
+        image: require("./assets/images/YearUp.png"), // Update the path to the YearUp logo
+        footerLink: [
+          {
+            name: "Learn More",
+            url: "https://www.yearup.org/"
+          }
+        ]
+      },
+      {
+        title: "Top Performer Award",
+        subtitle: "Recognized for outstanding performance and leadership during the Year Up program.",
+        image: require("./assets/images/AwardLogo.png"), // Update the path to the award image
+        footerLink: [
+          {
+            name: "View Details",
+            url: "CERTIFICATE_URL_HERE"
+          }
+        ]
+      },
+      {
+        title: "Leadership Excellence",
+        subtitle: "Awarded for exemplary leadership and mentoring new interns.",
+        image: require("./assets/images/LeadershipLogo.png"), // Update the path to your logo
+        footerLink: [
+          {
+            name: "View Details",
+            url: "CERTIFICATE_URL_HERE"
+          }
+        ]
+      },
+      {
+        title: "Perfect Attendance",
+        subtitle: "Maintained a perfect attendance record during the Year Up program.",
+        image: require("./assets/images/AttendanceLogo.png"), // Update the path to your logo
+        footerLink: [
+          {
+            name: "View Details",
+            url: "CERTIFICATE_URL_HERE"
+          }
+        ]
+      },
+      {
+        title: "Team Collaboration Award",
+        subtitle: "Recognized for exceptional teamwork and project delivery.",
+        image: require("./assets/images/TeamworkLogo.png"), // Update the path to your logo
+        footerLink: [
+          {
+            name: "View Details",
+            url: "CERTIFICATE_URL_HERE"
+          }
+        ]
+      }
+    ],
+    display: true // Set false to hide this section, defaults to true
+  };
 
 // Talks Sections
 

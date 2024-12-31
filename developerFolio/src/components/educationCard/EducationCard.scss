@@ -41,12 +41,17 @@
 }
 
 .education-roundedimg {
-  object-fit: cover;
+  object-fit: contain;
   margin-right: 2rem;
   width: 6rem;
   height: 6rem;
   box-shadow: 0 0.5rem 1rem $lightBoxShadowDarker;
   border-radius: 50%;
+  transition: transform 0.3s ease-in-out; /* Add transition for smooth effect */
+}
+
+.education-roundedimg:hover {
+  transform: scale(0.9); /* Scale down the image on hover */
 }
 
 .education-card-right {
@@ -107,6 +112,7 @@
     height: 4rem;
     margin-bottom: 0.5rem;
     margin-right: 0px;
+    object-fit: cover;
   }
 }
 
