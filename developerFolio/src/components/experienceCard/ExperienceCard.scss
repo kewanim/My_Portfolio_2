@@ -1,5 +1,6 @@
 @import "../../_globalColor";
 
+/* Experience Card Styles */
 .experience-card {
   position: relative;
   background-color: $lightBackground2;
@@ -20,16 +21,13 @@
   box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
 }
 
+/* Experience Banner */
 .experience-banner {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 150%;
   background: $experienceCardBannerLG;
   border-radius: 10px 10px 0px 0px;
-  -webkit-filter: blur(0px);
-  -moz-filter: blur(0px);
-  -o-filter: blur(0px);
-  -ms-filter: blur(0px);
   filter: blur(0px);
   height: 11rem;
   display: flex;
@@ -37,13 +35,10 @@
   justify-content: center;
 }
 
+/* Blurred Div */
 .experience-blurred_div {
   position: absolute;
   background: $experienceCardBlurredDivLG;
-  -webkit-filter: blur(5px);
-  -moz-filter: blur(5px);
-  -o-filter: blur(5px);
-  -ms-filter: blur(5px);
   filter: blur(5px);
   height: 11rem;
   top: 0;
@@ -52,6 +47,7 @@
   border-radius: 10px 10px 0px 0px;
 }
 
+/* Company Name */
 .experience-div-company {
   position: absolute;
   background: transparent;
@@ -64,33 +60,49 @@
   justify-content: center;
 }
 
+/* Company Text */
 .experience-text-company {
   text-align: center;
   padding: 1.5rem;
   margin: 0;
   color: $lightBackground1;
   font-size: 25px;
-  text-align: center;
   font-weight: 700;
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
 }
 
-.experience-roundedimg {
-  position: absolute;
-  object-fit: cover;
-  left: 0;
-  right: 0;
-  top: 7rem;
-  margin-left: auto;
-  margin-right: auto;
-  width: 8rem;
-  height: 8rem;
-  box-shadow: 0 0.5rem 1rem $lightBoxShadowDarker;
-  border-radius: 50%;
+/* Transparent Logo Styles for Big Projects */
+.project-logo img {
+  width: 9rem; /* Uniform size for all logos */
+  height: 9rem;
+  object-fit: contain; /* Ensure full logo visibility without cropping */
+  background: transparent; /* Transparent background support */
+  display: block;
+  margin: 0 auto; /* Center logo */
+  padding: 0.5rem; /* Padding around logos */
+  border-radius: 10px; /* Optional rounded corners */
 }
 
+/* Logo Styling (Fixed Size and Position) */
+.experience-roundedimg {
+  position: absolute;
+  object-fit: contain; /* Ensures the logo fits without cropping */
+  left: 0;
+  right: 0;
+  top: 6rem; /* Moved UP by 1rem (previously 7rem) */
+  margin-left: auto;
+  margin-right: auto;
+  width: 9rem; /* Slightly larger circle */
+  height: 9rem; /* Slightly larger circle */
+  padding: 0.5rem; /* Added padding inside the circle */
+  background-color: white; /* Keeps transparent logos clean */
+  box-shadow: 0 0.5rem 1rem $lightBoxShadowDarker;
+  border-radius: 50%; /* Keeps circular shape */
+}
+
+/* Role Text */
 .experience-text-role {
   text-align: center;
   color: $textColor;
@@ -100,9 +112,13 @@
   padding-top: 1.5rem;
   line-height: normal;
 }
+
+/* Dark Mode Text */
 .dark-mode-text {
   color: $textColorDark !important;
 }
+
+/* Date Text */
 .experience-text-date {
   text-align: center;
   color: $textColor;
@@ -112,10 +128,12 @@
   font-weight: 600;
 }
 
+/* Description */
 .experience-text-desc {
   text-align: center;
 }
 
+/* Details */
 .experience-text-details {
   padding: 1.5rem;
   margin-top: 2rem;
@@ -123,6 +141,7 @@
 
 /* Media Query */
 
+/* Large Screens */
 @media (max-width: 1380px) {
   .experience-text-role {
     padding-top: 0.5rem;
@@ -135,11 +154,13 @@
     font-size: 18px;
   }
   .experience-roundedimg {
-    width: 6.5rem;
-    height: 6.5rem;
+    width: 7.5rem; /* Adjust for smaller screens */
+    height: 7.5rem;
+    top: 5.5rem; /* Move up slightly for smaller screens */
   }
 }
 
+/* Smaller Screens */
 @media (max-width: 768px) {
   .experience-text-role {
     font-size: 22px;
@@ -153,4 +174,17 @@
   .experience-text-desc {
     font-size: 16px;
   }
+  .experience-roundedimg {
+    width: 7rem; /* Smaller logo for mobile */
+    height: 7rem;
+    top: 5rem; /* Move up slightly for mobile */
+  }
+  .project-logo img {
+    width: 7rem; /* Smaller project logos */
+    height: 7rem;
+  }
+}
+
+.big-projects .project-logo img {
+  background: transparent;
 }

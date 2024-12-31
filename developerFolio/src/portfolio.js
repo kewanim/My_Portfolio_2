@@ -203,7 +203,7 @@ const workExperiences = {
     {
       role: "Software Engineer (Full-Time)",
       company: "Fannie Mae",
-      companylogo: require("./assets/images/fannieMaeLogo.png"), // Replace with actual logo file
+      companylogo: require("./assets/images/fannieMaeLogo2.png"), // Replace with actual logo file
       date: "January 2019 – April 2024",
       desc: "Developed and maintained software solutions, managed SDLC documentation, and migrated systems to AWS Cloud.",
       descBullets: [
@@ -216,7 +216,7 @@ const workExperiences = {
     {
       role: "Intern Software Engineer",
       company: "Fannie Mae",
-      companylogo: require("./assets/images/fannieMaeLogo.png"), // Replace with actual logo file
+      companylogo: require("./assets/images/fannieMaeLogo2.png"), // Replace with actual logo file
       date: "June 2018 – December 2018",
       desc: "Supported software engineering tasks, including testing, debugging, and documentation.",
       descBullets: [
@@ -250,36 +250,106 @@ const openSource = {
 
 // Some big projects you have worked on
 
+// const bigProjects = {
+//   title: "Big Projects",
+//   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+//   projects: [
+//     {
+//       image: require("./assets/images/saayaHealthLogo.webp"),
+//       projectName: "Saayahealth",
+//       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+//       footerLink: [
+//         {
+//           name: "Visit Website",
+//           url: "http://saayahealth.com/"
+//         }
+//         //  you can add extra buttons here.
+//       ]
+//     },
+//     {
+//       image: require("./assets/images/nextuLogo.webp"),
+//       projectName: "Nextu",
+//       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+//       footerLink: [
+//         {
+//           name: "Visit Website",
+//           url: "http://nextu.se/"
+//         }
+//       ]
+//     }
+//   ],
+//   display: true // Set false to hide this section, defaults to true
+// };
+// Big Projects Section
+
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "Notable projects showcasing Full Stack Web Development skills",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/evangadiLogo.png"), // Replace with actual logo
+      projectName: "Evangadi Forum",
+      projectDesc: "A full-stack forum application with authentication, JWT security, and database integration.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Live Demo",
+          url: "https://evangadi-forum.vercel.app" // Replace with your project URL
+        },
+        {
+          name: "GitHub",
+          url: "https://github.com/kewanim/evangadi-forum" // Replace with GitHub repo URL
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/amazonLogo.png"), // Replace with actual logo
+      projectName: "Amazon Clone",
+      projectDesc: "An e-commerce clone featuring payments, user authentication, and Firebase integration.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Live Demo",
+          url: "https://amazon-clone-front-end-2024.netlify.app/" // Replace with your project URL
+        },
+        {
+          name: "GitHub",
+          url: "https://github.com/kewanim/Amazon-Clone-Front-End-2024 https://github.com/kewanim/Amazon-Clone-Back-End-2024 " // Replace with GitHub repo URL
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/appleLogo.png"), 
+      projectName: "Apple Website Clone",
+      projectDesc: "A pixel-perfect static clone of Apple's website using HTML, CSS, and JavaScript.",
+      footerLink: [
+        {
+          name: "Live Demo",
+          url: "https://apple-clone.vercel.app" // Replace with your project URL
+        },
+        {
+          name: "GitHub",
+          url: "https://github.com/kewanim/apple-clone" // Replace with GitHub repo URL
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/netflixLogo.png"), // Replace with actual logo
+      projectName: "Netflix Clone",
+      projectDesc: "A video streaming platform built with React, Firebase, and TMDB API.",
+      footerLink: [
+        {
+          name: "Live Demo",
+          url: "https://kewanim.github.io/Netflix-Clone-2024/" 
+        },
+        {
+          name: "GitHub",
+          url: "https://github.com/kewanim/Netflix-Clone-2024"
         }
       ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
 };
+
 
 // Achievement Section
 // Include certificates, talks etc
