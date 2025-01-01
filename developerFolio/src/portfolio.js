@@ -325,12 +325,12 @@ const bigProjects = {
 
 // Achievement Section
 
-const achievementSection = {
+const certificationSection = {
   title: "Certifications 🏆",
   subtitle:
     "Recognitions and Certifications that demonstrate my expertise and skills in Microsoft Office tools and more.",
 
-  achievementsCards: [
+  certificationSection: [
     {
       title: "Microsoft Office Specialist - Excel 2016",
       subtitle:
@@ -389,69 +389,83 @@ const achievementSection = {
 
 // Blogs Section
 
-const blogSection = {
-    title: "Achievements",
-    subtitle: "Recognitions and Accomplishments",
-    achievementsCards: [
-      {
-        title: "Year Up Program Completion",
-        subtitle: "Completed the prestigious Year Up IT Training Program, gaining technical and professional skills.",
-        image: require("./assets/images/YearUp.png"), // Update the path to the YearUp logo
-        footerLink: [
-          {
-            name: "Learn More",
-            url: "https://www.yearup.org/"
-          }
-        ]
-      },
-      {
-        title: "Top Performer Award",
-        subtitle: "Recognized for outstanding performance and leadership during the Year Up program.",
-        image: require("./assets/images/AwardLogo.png"), // Update the path to the award image
-        footerLink: [
-          {
-            name: "View Details",
-            url: "CERTIFICATE_URL_HERE"
-          }
-        ]
-      },
-      {
-        title: "Leadership Excellence",
-        subtitle: "Awarded for exemplary leadership and mentoring new interns.",
-        image: require("./assets/images/LeadershipLogo.png"), // Update the path to your logo
-        footerLink: [
-          {
-            name: "View Details",
-            url: "CERTIFICATE_URL_HERE"
-          }
-        ]
-      },
-      {
-        title: "Perfect Attendance",
-        subtitle: "Maintained a perfect attendance record during the Year Up program.",
-        image: require("./assets/images/AttendanceLogo.png"), // Update the path to your logo
-        footerLink: [
-          {
-            name: "View Details",
-            url: "CERTIFICATE_URL_HERE"
-          }
-        ]
-      },
-      {
-        title: "Team Collaboration Award",
-        subtitle: "Recognized for exceptional teamwork and project delivery.",
-        image: require("./assets/images/TeamworkLogo.png"), // Update the path to your logo
-        footerLink: [
-          {
-            name: "View Details",
-            url: "CERTIFICATE_URL_HERE"
-          }
-        ]
-      }
-    ],
-    display: true // Set false to hide this section, defaults to true
-  };
+// Achievement Section
+const achievementSection = {
+  title: "Achievements",
+  subtitle: "Recognitions and Accomplishments",
+  achievementsCards: [
+    {
+      title: "Year Up Program Completion",
+      subtitle: "Completed the prestigious Year Up IT Training Program, gaining technical and professional skills.",
+      image: require("./assets/images/YearUp/EPIC.png"), 
+      footerLink: [
+        {
+          name: "Learn More",
+          url: "https://www.yearup.org/"
+        }
+      ]
+    },
+    {
+      title: "Academic Excellence Award",
+      subtitle: "Acknowledged for achieving straight A’s in core courses at Year Up NCR, demonstrating academic excellence and dedication.",
+      image: require("./assets/images/YearUp/AcademicExcellence.png"), 
+      footerLink: [
+        {
+          name: "View Details",
+          url: "CERTIFICATE_URL_HERE"
+        }
+      ]
+    },
+    {
+      title: "E.P.I.C. Award",
+      subtitle: "Awarded the E.P.I.C. Award for exemplifying ‘In-Demand’ qualities during the first 7 weeks of the Learning Community Uplift program at Year Up NCR, showcasing Excellence, Professionalism, Integrity, and Communication.",
+      image: require("./assets/images/YearUp/EPIC.png"), 
+      footerLink: [
+        {
+          name: "View Details",
+          url: "CERTIFICATE_URL_HERE"
+        }
+      ]
+    },
+    {
+      title: "Dependability Award",
+      subtitle: "Recognized for exceptional reliability and punctuality by maintaining consistent attendance and timeliness at Year Up NCR.",
+      image: require("./assets/images/YearUp/DependabilityAward.png"), 
+      footerLink: [
+        {
+          name: "View Details",
+          url: "CERTIFICATE_URL_HERE"
+        }
+      ]
+    },
+    {
+      title: "Professional of the Week",
+      subtitle: "Recognized for exceptional professionalism within the program and project delivery.",
+      image: require("./assets/images/YearUp/ProfessionalOfTheWeek.png"), 
+      footerLink: [
+        {
+          name: "View Details",
+          url: "CERTIFICATE_URL_HERE"
+        }
+      ]
+    }
+  ],
+  display: true // Set false to hide this section
+};
 
+// Blogs Section
+const blogSection = {
+  title: "Blogs",
+  subtitle: "Sharing ideas and insights.",
+  blogs: [], // Empty array or add blog entries here
+  display: false // Hide if no blogs are added
+};
+
+export {
+  certificationSection,
+  achievementSection, // Only one export for achievements
+  blogSection,
+};
 // Talks Sections
 
 const talkSection = {
@@ -521,8 +535,9 @@ export {
   workExperiences,
   openSource,
   bigProjects,
-  achievementSection,
-  blogSection,
+  // achievementSection,
+  // certificationSection,
+  // blogSection,
   talkSection,
   podcastSection,
   contactInfo,
