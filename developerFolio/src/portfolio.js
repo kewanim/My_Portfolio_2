@@ -320,10 +320,7 @@ const bigProjects = {
 };
 
 
-// Achievement Section
-// Include certificates, talks etc
-
-// Achievement Section
+// Certification Section
 
 const certificationSection = {
   title: "Certifications 🏆",
@@ -386,8 +383,6 @@ const certificationSection = {
   ],
   display: true // Set false to hide this section, defaults to true
 };
-
-// Blogs Section
 
 // Achievement Section
 const achievementSection = {
@@ -487,32 +482,67 @@ const talkSection = {
 
 // Podcast Section
 
-const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+// Technical Skills & Language Proficiencies Section
+const skillsLanguageSection = {
+  title: "Technical Skills & Languages 🛠️",
+  subtitle: "A quick glance at my core proficiencies and programming languages.",
 
-  // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+  technicalSkills: [
+    {
+      category: "Programming Languages",
+      skills: ["JavaScript", "Python", "SQL", "C#", "HTML", "CSS"]
+    },
+    {
+      category: "Frameworks & Libraries",
+      skills: ["React", "Node.js", "Express", "Firebase"]
+    },
+    {
+      category: "Databases",
+      skills: ["MySQL", "Firebase Realtime Database"]
+    },
+    {
+      category: "Dev Tools",
+      skills: ["Git", "Postman", "Docker", "MAMP"]
+    },
+    {
+      category: "Cloud Services",
+      skills: ["AWS", "Firebase"]
+    },
+    {
+      category: "Testing Tools",
+      skills: ["Manual Testing", "Selenium", "Toad", "SVN"]
+    }
   ],
-  display: true // Set false to hide this section, defaults to true
+
+  languageProficiencies: [
+    {
+      language: "English",
+      level: "Fluent",
+      flag: "US_Flag.png"
+    },
+    {
+      language: "French",
+      level: "Fluent",
+      flag: "French_Flag.png"
+    },
+    {
+      language: "Amharic",
+      level: "Fluent",
+      flag: "Ethiopian_Flag.png"
+    },
+    {
+      language: "Tigrinya",
+      level: "Fluent",
+      flag: "Tigray_Flag.png"
+    }
+  ],
+
+  display: true // Set to false if you want to hide this section
 };
 
-// Resume Section
-const resumeSection = {
-  title: "Resume",
-  subtitle: "Feel free to download my resume",
-
-  // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
-};
-
-const contactInfo = {
-  title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+export {
+  skillsLanguageSection,
+  // Other exports remain unchanged
 };
 
 // Twitter Section
@@ -539,9 +569,9 @@ export {
   // certificationSection,
   // blogSection,
   talkSection,
-  podcastSection,
-  contactInfo,
+  // podcastSection,
+  // contactInfo,
   twitterDetails,
   isHireable,
-  resumeSection
+  // resumeSection
 };

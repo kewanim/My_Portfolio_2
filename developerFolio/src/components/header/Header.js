@@ -9,9 +9,8 @@ import {
   skillsSection,
   openSource,
   blogSection,
-  talkSection,
   achievementSection,
-  resumeSection
+  skillsLanguageSection
 } from "../../portfolio";
 
 function Header() {
@@ -21,8 +20,7 @@ function Header() {
   const viewSkills = skillsSection.display;
   const viewAchievement = achievementSection.display;
   const viewBlog = blogSection.display;
-  const viewTalks = talkSection.display;
-  const viewResume = resumeSection.display;
+  const viewSkillsLanguages = skillsLanguageSection.display;
 
   return (
     <Headroom>
@@ -66,14 +64,23 @@ function Header() {
               <a href="#blogs">Blogs</a>
             </li>
           )}
-          {viewTalks && (
+
+{viewSkillsLanguages && (
+  <li>
+    <a href="#skillsLanguage">Skills & Languages</a>
+  </li>
+)}
+
+          {/* Resume Link Fixed */}
+          {greeting.resumeLink && (
             <li>
-              <a href="#talks">Talks</a>
-            </li>
-          )}
-          {viewResume && (
-            <li>
-              <a href="#resume">Resume</a>
+              <a
+                href={greeting.resumeLink}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Resume
+              </a>
             </li>
           )}
           <li>
@@ -90,4 +97,5 @@ function Header() {
     </Headroom>
   );
 }
+
 export default Header;
