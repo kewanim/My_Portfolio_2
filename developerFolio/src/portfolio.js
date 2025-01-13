@@ -1,9 +1,11 @@
+//Line 1
 /* Change this file to get your personal Portfolio */
 
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+
 
 // Splash Screen
 
@@ -456,94 +458,94 @@ const blogSection = {
   display: false // Hide if no blogs are added
 };
 
-export {
-  certificationSection,
-  achievementSection, // Only one export for achievements
-  blogSection,
-};
 // Talks Sections
-
-const talkSection = {
-  title: "TALKS",
-  subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-  ),
-
-  talks: [
-    {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
 
 // Podcast Section
 
 // Technical Skills & Language Proficiencies Section
 const skillsLanguageSection = {
-  title: "Technical Skills & Languages 🛠️",
-  subtitle: "A quick glance at my core proficiencies and programming languages.",
-
   technicalSkills: [
     {
       category: "Programming Languages",
-      skills: ["JavaScript", "Python", "SQL", "C#", "HTML", "CSS"]
+      skills: [
+        { skillName: "JavaScript", icon: "fab fa-js" },
+        { skillName: "Python", icon: "fab fa-python" },
+        { skillName: "Java", icon: "fab fa-java" },
+        { skillName: "C#", icon: "fab fa-microsoft" },
+        { skillName: "TypeScript", icon: "fab fa-js" },
+      ],
     },
     {
-      category: "Frameworks & Libraries",
-      skills: ["React", "Node.js", "Express", "Firebase"]
+      category: "Frontend Frameworks",
+      skills: [
+        { skillName: "React", icon: "fab fa-react" },
+        { skillName: "Bootstrap", icon: "fab fa-bootstrap" },
+        { skillName: "Material-UI", icon: "fas fa-paint-brush" },
+      ],
+    },
+    {
+      category: "Backend Frameworks",
+      skills: [
+        { skillName: "Node.js", icon: "fab fa-node" },
+        { skillName: "Express.js", icon: "fas fa-server" },
+        { skillName: "FastAPI", icon: "fas fa-rocket" },
+      ],
+    },
+    {
+      category: "Cloud & DevOps",
+      skills: [
+        { skillName: "AWS", icon: "fab fa-aws" },
+        { skillName: "Docker", icon: "fab fa-docker" },
+        { skillName: "Firebase", icon: "fas fa-fire" },
+        { skillName: "GitHub Actions", icon: "fab fa-github" },
+        { skillName: "Terraform", icon: "fas fa-code-branch" },
+      ],
     },
     {
       category: "Databases",
-      skills: ["MySQL", "Firebase Realtime Database"]
-    },
-    {
-      category: "Dev Tools",
-      skills: ["Git", "Postman", "Docker", "MAMP"]
-    },
-    {
-      category: "Cloud Services",
-      skills: ["AWS", "Firebase"]
+      skills: [
+        { skillName: "MySQL", icon: "fas fa-database" },
+        { skillName: "PostgreSQL", icon: "fas fa-database" },
+        { skillName: "MongoDB", icon: "fas fa-leaf" },
+        { skillName: "Firebase Realtime Database", icon: "fas fa-fire" },
+      ],
     },
     {
       category: "Testing Tools",
-      skills: ["Manual Testing", "Selenium", "Toad", "SVN"]
-    }
+      skills: [
+        { skillName: "Selenium", icon: "fas fa-bug" },
+        { skillName: "Postman", icon: "fas fa-paper-plane" },
+        { skillName: "Cypress", icon: "fas fa-vial" },
+        { skillName: "Jest", icon: "fas fa-check-circle" },
+      ],
+    },
   ],
-
-  languageProficiencies: [
+  languages: [
     {
-      language: "English",
-      level: "Fluent",
-      flag: "US_Flag.png"
+      name: "English",
+      flag: require("./assets/images/US_Flag.png"),
+      proficiency: "Fluent",
     },
     {
-      language: "French",
-      level: "Fluent",
-      flag: "French_Flag.png"
+      name: "French",
+      flag: require("./assets/images/French_Flag.png"),
+      proficiency: "Intermediate",
     },
     {
-      language: "Amharic",
-      level: "Fluent",
-      flag: "Ethiopian_Flag.png"
+      name: "Amharic",
+      flag: require("./assets/images/Ethiopian_Flag.png"),
+      proficiency: "Native",
     },
     {
-      language: "Tigrinya",
-      level: "Fluent",
-      flag: "Tigray_Flag.png"
-    }
+      name: "Tigrinya",
+      flag: require("./assets/images/Tigray_Flag.png"),
+      proficiency: "Fluent",
+    },
   ],
-
-  display: true // Set to false if you want to hide this section
+  display: true,
 };
 
-export {
-  skillsLanguageSection,
-  // Other exports remain unchanged
-};
+export default skillsLanguageSection;
 
 // Twitter Section
 
@@ -555,23 +557,21 @@ const twitterDetails = {
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
-  illustration,
-  greeting,
-  socialMediaLinks,
-  splashScreen,
+  skillsLanguageSection,
+  certificationSection,
+  achievementSection,
   skillsSection,
   educationInfo,
   techStack,
   workExperiences,
   openSource,
   bigProjects,
-  // achievementSection,
-  // certificationSection,
-  // blogSection,
-  talkSection,
-  // podcastSection,
-  // contactInfo,
+  socialMediaLinks,
+  splashScreen,
+  greeting,
+  illustration,
   twitterDetails,
   isHireable,
-  // resumeSection
+  blogSection,
 };
+//Line 576
