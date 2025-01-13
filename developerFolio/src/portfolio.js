@@ -264,11 +264,11 @@ const bigProjects = {
       footerLink: [
         {
           name: "Live Demo",
-          url: "https://evangadi-forum.vercel.app" // Replace with your project URL
+          url: "https://kewanim.github.io/Evangadi-Forum-Client/" // Replace with your project URL
         },
         {
           name: "GitHub",
-          url: "https://github.com/kewanim/evangadi-forum" // Replace with GitHub repo URL
+          url: "https://github.com/kewanim/Evangadi-Forum-Client.git" // Replace with GitHub repo URL
         }
       ]
     },
@@ -283,7 +283,7 @@ const bigProjects = {
         },
         {
           name: "GitHub",
-          url: "https://github.com/kewanim/Amazon-Clone-Front-End-2024 https://github.com/kewanim/Amazon-Clone-Back-End-2024 " // Replace with GitHub repo URL
+          url: "https://github.com/kewanim/Amazon-Clone-Back-End-2024 " // Replace with GitHub repo URL
         }
       ]
     },
@@ -294,11 +294,11 @@ const bigProjects = {
       footerLink: [
         {
           name: "Live Demo",
-          url: "https://apple-clone.vercel.app" // Replace with your project URL
+          url: "https://kewanim.github.io/Apple-Website-Clone/" // Replace with your project URL
         },
         {
           name: "GitHub",
-          url: "https://github.com/kewanim/apple-clone" // Replace with GitHub repo URL
+          url: "https://github.com/kewanim/Apple-Website-Clone.git" // Replace with GitHub repo URL
         }
       ]
     },
