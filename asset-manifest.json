@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/My_Portfolio_2/static/css/main.ac31951d.css",
+    "main.js": "/My_Portfolio_2/static/js/main.dfc4cbae.js",
+    "static/css/64.bba8fa55.chunk.css": "/My_Portfolio_2/static/css/64.bba8fa55.chunk.css",
+    "static/js/64.56dc6704.chunk.js": "/My_Portfolio_2/static/js/64.56dc6704.chunk.js",
+    "static/css/769.b3cbb36b.chunk.css": "/My_Portfolio_2/static/css/769.b3cbb36b.chunk.css",
+    "static/js/769.bc93f2dd.chunk.js": "/My_Portfolio_2/static/js/769.bc93f2dd.chunk.js",
+    "static/media/ProfessionalOfTheWeek.png": "/My_Portfolio_2/static/media/ProfessionalOfTheWeek.1ebcc8243856044a9cd1.png",
+    "static/media/AcademicExcellence.png": "/My_Portfolio_2/static/media/AcademicExcellence.e242bf9878022a23332b.png",
+    "static/media/EPIC.png": "/My_Portfolio_2/static/media/EPIC.2354c0022eb69230bc24.png",
+    "static/media/DependabilityAward.png": "/My_Portfolio_2/static/media/DependabilityAward.3f42395c1e54fcb847a4.png",
+    "static/media/Montserrat-Regular.ttf": "/My_Portfolio_2/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/GatorLogo_4Color.png": "/My_Portfolio_2/static/media/GatorLogo_4Color.8055ec16a30675ff32fc.png",
+    "static/media/Agustina.woff": "/My_Portfolio_2/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/manOnTable.svg": "/My_Portfolio_2/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/amazonLogo2.png": "/My_Portfolio_2/static/media/amazonLogo2.09658edd178587a46bcf.png",
+    "static/media/developerActivity.svg": "/My_Portfolio_2/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/OutlookLogo.png": "/My_Portfolio_2/static/media/OutlookLogo.39a93678c3d97e7867ca.png",
+    "static/media/YearUp.png": "/My_Portfolio_2/static/media/YearUp.3cfb989b5571098f6f7b.png",
+    "static/media/PowerPointLogo.png": "/My_Portfolio_2/static/media/PowerPointLogo.e8643bbb09374cdd747e.png",
+    "static/media/ExcelLogo.png": "/My_Portfolio_2/static/media/ExcelLogo.a7af4779f105f8940b16.png",
+    "static/media/WordLogo.png": "/My_Portfolio_2/static/media/WordLogo.1092336eb82755bb5205.png",
+    "static/media/Tigray_Flag.png": "/My_Portfolio_2/static/media/Tigray_Flag.d92dccc8fe2ba1ef8b1c.png",
+    "static/media/appleLogo.png": "/My_Portfolio_2/static/media/appleLogo.3b203b987a2e05bc5cc5.png",
+    "static/media/skill.svg": "/My_Portfolio_2/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "static/media/resume.pdf": "/My_Portfolio_2/static/media/resume.f0f733dd3cd732b39262.pdf",
+    "index.html": "/My_Portfolio_2/index.html",
+    "main.ac31951d.css.map": "/My_Portfolio_2/static/css/main.ac31951d.css.map",
+    "main.dfc4cbae.js.map": "/My_Portfolio_2/static/js/main.dfc4cbae.js.map",
+    "64.bba8fa55.chunk.css.map": "/My_Portfolio_2/static/css/64.bba8fa55.chunk.css.map",
+    "64.56dc6704.chunk.js.map": "/My_Portfolio_2/static/js/64.56dc6704.chunk.js.map",
+    "769.b3cbb36b.chunk.css.map": "/My_Portfolio_2/static/css/769.b3cbb36b.chunk.css.map",
+    "769.bc93f2dd.chunk.js.map": "/My_Portfolio_2/static/js/769.bc93f2dd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac31951d.css",
+    "static/js/main.dfc4cbae.js"
+  ]
+}
